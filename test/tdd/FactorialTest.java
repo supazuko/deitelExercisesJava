@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class FactorialTest2 {
+class FactorialTest {
     Factorial factorial;
 
     @BeforeEach
@@ -18,7 +18,6 @@ class FactorialTest2 {
     @AfterEach
     void tearDown() {
     }
-
 
     @DisplayName("check for invalid input")
     @Test
