@@ -8,5 +8,6 @@ public class CalculationsMain {
         System.out.println(Calculations.circleArea(5) + "\n");
         System.out.println(Calculations.minimum3(2.0, 5.8, 60.6) + "\n");
         System.out.println(Calculations.hypotenuse(2,3));
+        System.out.println(Calculations.squareOfAnyCharacter(5, '#') + "\n");
     }
 }
