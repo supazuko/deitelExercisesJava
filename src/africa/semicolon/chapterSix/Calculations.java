@@ -59,4 +59,15 @@ public class Calculations {
         }
         return characters.toString();
     }
+
+    public static int integerPower(int base, int exponent){
+        int counter = 0;
+        int powerOfInteger = 1;
+        if (exponent > 0) {
+            while (counter < exponent) {
+                powerOfInteger *= base;
+                counter++;
+            }
+        }return powerOfInteger;
+    }
 }
