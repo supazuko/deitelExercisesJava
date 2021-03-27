@@ -79,4 +79,14 @@ public class Calculations {
         }
         return total == number;
     }
+
+    public static boolean isPrime(int number) {
+        int counter = 0;
+        for (int i = 2; i <= Math.sqrt(number); i++) {
+            if(number % i == 0)
+                counter++;
+        }
+        return counter == 0;
+
+    }
 }
