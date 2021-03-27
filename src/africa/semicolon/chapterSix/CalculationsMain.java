@@ -11,5 +11,6 @@ public class CalculationsMain {
         System.out.println(Calculations.squareOfAnyCharacter(5, '#') + "\n");
         System.out.println(Calculations.integerPower(3, 3));
         System.out.println(Calculations.isPerfect(100));
+        System.out.println(Calculations.isPrime(10000));
     }
 }
