@@ -12,5 +12,6 @@ public class CalculationsMain {
         System.out.println(Calculations.integerPower(3, 3));
         System.out.println(Calculations.isPerfect(100));
         System.out.println(Calculations.isPrime(10000));
+        System.out.println(Calculations.decimalToHexadecimal(20));
     }
 }
