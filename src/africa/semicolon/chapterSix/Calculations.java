@@ -87,6 +87,16 @@ public class Calculations {
                 counter++;
         }
         return counter == 0;
+    }
 
+    public static int decimalToHexadecimal(int decimalNumber) {
+        int hexadecimal = 0;
+        int multiplier = 1;
+        while(decimalNumber > 0){
+            hexadecimal += multiplier * (decimalNumber % 16);
+            decimalNumber = decimalNumber/16;
+            multiplier = multiplier*10;
+        }
+        return hexadecimal;
     }
 }
