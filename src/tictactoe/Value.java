@@ -1,7 +1,9 @@
 package tictactoe;
 
 public enum Value {
-    X, O, EMPTY;
+    X,
+    O,
+    EMPTY;
 
     @Override
     public String toString() {
@@ -13,4 +15,10 @@ public enum Value {
         }
         return value;
     }
+
+    public static void main(String[] args) {
+        System.out.println(Value.X.name());
+        System.out.println(Value.X.ordinal());
+    }
 }
+
