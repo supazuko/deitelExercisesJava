@@ -16,9 +16,9 @@ public class Board {
     }
 
     public void displayBoard(){
-        for (int row = 0; row < gameArray.length; row++) {
-            for (int column = 0; column < gameArray[row].length; column++) {
-                System.out.print(gameArray[row][column] + " ");
+        for (Value[] values : gameArray) {
+            for (Value value : values) {
+                System.out.print(value + " ");
             }
             System.out.println();
         }
