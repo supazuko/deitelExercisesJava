@@ -9,16 +9,11 @@ public enum Value {
     public String toString() {
         String value = "";
         switch (this) {
-            case X -> value = "O";
-            case O -> value = "X";
+            case X -> value = "X";
+            case O -> value = "O";
             case EMPTY -> value = "";
         }
         return value;
-    }
-
-    public static void main(String[] args) {
-        System.out.println(Value.X.name());
-        System.out.println(Value.X.ordinal());
     }
 }
 
