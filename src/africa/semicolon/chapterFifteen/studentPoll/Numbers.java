@@ -28,10 +28,11 @@ public class Numbers {
     public static void addResponses() {
         Scanner input = new Scanner(System.in);
         System.out.println("Rate on a scale of 1 to 5 the quality of lunch in Semicolon, with 1 being “awful” and 5 being “excellent.”");
+//        numbers.format("%s%n", "Ratings");
         while (input.hasNextInt()){
             try{
                 System.out.println("Rate on a scale of 1 to 5 the quality of lunch in Semicolon, with 1 being “awful” and 5 being “excellent.”");
-                numbers.format("%d", input.nextInt());
+                numbers.format("%d%n", input.nextInt());
             }catch (FormatterClosedException formatterClosedException) {
                 System.err.println("Error writing to file. Terminating.");
                 break;
